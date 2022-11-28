@@ -78,5 +78,11 @@ public class StudentController {
 	}
 	return "succesfully deleted id: " + id;
 	}
+	
+	
+	@RequestMapping("signIn")
+	public String login() {
+		return "login";
+	}
 	}
 
